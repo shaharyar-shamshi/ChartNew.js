@@ -1406,7 +1406,7 @@ function doMouseAction(event, ctx, action) {
 };
 ///////// GRAPHICAL PART OF THE SCRIPT ///////////////////////////////////////////
 //Define the global Chart Variable as a class.
-window.Chart = function(context) {
+window.NewChart = function(context) {
 	var chart = this;
 	//Easing functions adapted from Robert Penner's easing equations
 	//http://www.robertpenner.com/easing/
